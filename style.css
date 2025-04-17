@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 480px) {
     @font-face {
         font-family: 'import';
         src: url('D:\frontend_mentor\prj_1\rss\social-links-profile-main\social-links-profile-main\assets\fonts\static\Inter-Bold.ttf') format('tff');
@@ -195,6 +195,209 @@
         flex-flow: column;
         align-items: center;
         height: 2.5rem;
+        justify-content: center;
+        
+    }
+    
+    
+}
+@media (max-width: 480px) {
+    @font-face {
+        font-family: 'import';
+        src: url('D:\frontend_mentor\prj_1\rss\social-links-profile-main\social-links-profile-main\assets\fonts\static\Inter-Bold.ttf') format('tff');
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    
+    
+    p{
+        /* font-family:'import' ; */
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+            
+    
+    }
+    a{
+        /* font-family:'import' ; */
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        text-decoration: none;
+            
+    
+    }
+    
+    #abt{
+        margin-top:1% ;
+        margin-bottom:1% ;
+    }
+    
+    h1{
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: hsl(0, 0%, 100%);
+        margin-top:5% ;
+        margin-bottom  :0.1% ;
+        text-align: center;
+    
+        
+    }
+    #neon_green{
+        color: hsl(75, 94%, 57%);
+        font-family: 'Poppins', sans-serif;
+    }
+    h2{
+        font-size: 14px;
+        font-family: 'import', Courier, monospace;
+        color: hsl(0, 0%, 100%);
+        margin-top:0.1% ;
+        margin-bottom  :0.1% ;
+        text-align: center;
+    }
+    body{
+        background-color:  hsl(0, 0%, 8%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    
+    
+    
+    .centerbox{
+        display: flex;
+        flex-flow: column ;
+        padding-left: 1% ;
+        padding-right:1% ;
+        padding-bottom:1% ;
+        height: 60%;
+        width: 40%;
+        background-color: hsl(0, 0%, 12%);
+        border: 1px none;
+        border-radius: 3%;
+        align-content:space-between ;
+        gap: 3%;
+    
+    
+    
+    }
+    
+    
+    #jess{
+        
+        height: 85%;
+        width:  25%;
+        border: 1px none;
+        border-radius: 50%;
+    
+        padding-left: 40% ;
+        padding-right: 40% ;
+    
+        padding-top: 2%;
+        margin-top: 10%;
+        margin-bottom: 7.5%;
+    }
+    
+    .socials{
+        display: flex;
+        flex-flow: column;
+        /* align-content:space-between ; */
+        gap: 0.5rem;
+        padding: 2% 2%;
+    }
+    
+    
+    
+    .image{
+        width:100% ;
+        height: 15%;
+        
+    }
+    
+    .name{
+        width:100% ;
+        height: 15%;
+    }
+    
+    
+    
+    .soc1{
+        background-color: hsl(0, 0%, 20%);
+        border: 1px black none;
+        
+        border-radius: 5px;
+        width:100% ;
+    
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        height: 40%;
+        justify-content: center;
+        
+    
+        
+    }
+    
+    .soc2{
+        background-color: hsl(0, 0%, 20%);
+        border: 1px black none;
+        border-radius: 5px;
+        width:100% ;
+        height: 40%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        /* height: 2.5rem; */
+        justify-content: center;
+        
+    }
+    
+    .soc3{
+        background-color: hsl(0, 0%, 20%);
+        border: 1px black none;
+        border-radius: 5px;
+        width:100% ;
+        height: 40%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        justify-content: center;
+    }
+    
+    .soc4{
+        background-color: hsl(0, 0%, 20%);
+        border: 1px black none;
+        border-radius: 5px;
+        width:100% ;
+        height: 40%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        justify-content: center;
+        
+    }
+    
+    .soc5{
+        background-color: hsl(0, 0%, 20%);
+        border: 1px black none;
+        border-radius: 5px;
+        width:100% ;
+        height: 40%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
         justify-content: center;
         
     }
